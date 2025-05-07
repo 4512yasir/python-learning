@@ -309,6 +309,8 @@ Subset = “Is this set inside the other?”
 Superset = “Does this set contain the other?”
 
 
+# note 
+In a set, the order of printed elements is random and can change each time you run the program.
 
 
        

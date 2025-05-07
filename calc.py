@@ -20,11 +20,11 @@ print("Age:", age) # print the age
 print("Is Student:", is_student) # print the boolean value
 print("Hello, World!") # print a greeting message
 
-name = input("What is your name? ")
-age = int(input("How old are you? "))
+# name = input("What is your name? ")
+# age = int(input("How old are you? "))
 
-print("Hello", name , "!")
-print("You are", age, "years old.")
+# print("Hello", name , "!")
+# print("You are", age, "years old.")
 
 
 
@@ -109,3 +109,82 @@ def global_keyword():
       print(f"this is a global keyword variable: {change}")
 
 global_keyword()
+
+
+
+# comparison operators
+
+x = 10
+y = 5
+
+print(x > y)  # Greater than
+print(x != y) # Not equal to
+print(x == y) # Equal to
+print(x <= y) # Less than or equal to
+print(x >= y) # Greater than or equal to
+print(x < y)  # Less than 
+
+
+# logical operators
+# and operator - if both conditions are true
+maths = 80
+science = 75
+print(maths > 70 and science  > 70) # true 
+# or operator - if at least one condition is true
+user_name = "Yasir"
+password = "1234"
+print(user_name == "Yasir" or password == "Yasir") # true
+# not operator 
+door_status = "locked"
+print(not(door_status == "locked")) # false
+# combined operators
+age >= 18 
+have_id = "Yes"
+print(age >= 18 and have_id == "Yes") # true
+# tricky not operator
+light_status = "off"
+print(not(light_status == "on")) # true
+
+
+
+# conditional statements
+# if statement,elif and else statement
+age =13
+if age <= 12:
+    print("You are under 12 years old.")
+elif age >= 12 and age <= 17:
+    print("You are a teenager.")
+else:
+    print("You are an adult.")
+# nested statements
+age =18
+citizen = "Kenyan"
+if age >= 18:
+    print("You are eligible to vote")
+    if citizen == "Kenyan":
+        print("You are a eligible to vote in Kenya")
+    else:
+        print("You are not eligible to vote in Kenya")
+else:
+    print("You are not eligible to vote yet")
+
+
+membership_status ="Member"
+age = 10
+if age >= 60:
+    print("You are eligible for senior citizen discount")
+    if membership_status == "Member":
+        print("You are eligible for member discount")
+    else:
+        print("You are eligible senior discount")
+elif age >= 18 and age < 60:
+    print("You are eligible for adult discount")
+    if membership_status == "Member":
+        print("You are eligible for adult member discount")
+    else:
+        print("You are eligible for regular adult discount")
+else:
+    print("YOU are young for any discount")
+
+
+  
