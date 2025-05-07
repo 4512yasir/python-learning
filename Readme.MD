@@ -294,7 +294,12 @@ my_set = {1,2,3,4}
 
         print(A.issuperset(B))  # True
         print(B.issuperset(A))  # False
-
+10. removing random element in a set
+          s ={1,2,4,3}
+          s.pop()  # removes random elemenent
+11. add multiple elements in a set
+  
+       s.update([5, 6, 7])
 
 # note 
 subset and superset are not the same
